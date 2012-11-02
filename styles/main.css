@@ -1,0 +1,44 @@
+.st-slider{
+  width: 960px; /* w0+w1+2*w2 */
+}
+.st-slider>div{
+  float: left;
+}
+.st-slider-wrapper{
+  width: 890px; /* w0 */
+  height: 170px;
+  overflow: hidden;
+}
+.st-slider-items{
+  position: relative;
+  width: 999999px;
+}
+.st-slider-item{
+  position: relative;
+  -webkit-transition: left .4s ease-out;
+  -moz-transition: left .4s ease-out;
+  -o-transition: left .4s ease-out;
+  transition: left .4s ease-out;   
+  float: left;
+  width: 170px;
+  height: 170px;
+  margin: 0 10px 0 0; /* w1 */
+  color: hotpink;
+  background: #234;
+}
+.st-slider-controls{
+  width: 30px; /* w2 */
+  height: 170px;
+  background: silver;
+  cursor: pointer;
+  /* No selections here */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.st-slider-controls:hover{
+  background: grey;
+}
